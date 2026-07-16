@@ -1,0 +1,17 @@
+{
+  "name": "hdhc-loan-simulator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static HDHC personal loan simulator based on a 20-screen loan journey.",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "check": "node ./scripts/check-project.js",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "simulator",
+    "personal-loan",
+    "static-site"
+  ],
+  "license": "UNLICENSED"
+}
